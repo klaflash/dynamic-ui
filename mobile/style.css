@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e2f3f5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 0.5rem;
+    gap: 7rem;
+}
+
+.header svg {
+    fill: black;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.page {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2rem;
+    display: none;
+}
+
+.display-page {
+    display: block;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #3d5af1;
+}
+
+svg {
+    fill: aliceblue;
+}
