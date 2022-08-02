@@ -9,7 +9,7 @@ svg {
 }
 
 .container {
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     background-color: #e2f3f5;
