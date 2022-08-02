@@ -58,6 +58,17 @@ const display = () => {
         scanPage.classList.add('display-page');
     });
 
+    document.querySelector('.profile').addEventListener('click', () => {
+        document.querySelector('.menu').classList.add('show');
+    });
+
+    document.querySelector('.close').addEventListener('click', () => {
+        document.querySelector('.menu').classList.remove('show');
+    });
+
+    document.querySelector('.empty').addEventListener('click', () => {
+        document.querySelector('.menu').classList.remove('show');
+    });
 
 };
 
