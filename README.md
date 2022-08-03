@@ -9,3 +9,8 @@ Dropdown menu that appears on hover.
 Implementation of simple mobile navigation features.
 <br/>
 <br/>
+
+## 📁 [carousel](https://klaflash.github.io/dynamic-ui/carousel)
+Auto advancing image carousel with slide indicator.
+<br/>
+<br/>
