@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Image Carousel</title>
+</head>
+<body>
+
+    <section aria-label="New Photos">
+        <div class="carousel">
+            <button class="button prev">
+                <svg prev xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M23.375 30 13.333 19.958l10.042-10 1.958 1.959-8.041 8.041 8.041 8.084Z"/></svg>
+            </button>
+            <button class="button next">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="m15.625 30-1.958-1.958 8.041-8.084-8.041-8.041 1.958-1.959 10.042 10Z"/></svg>
+            </button>
+            <ul class="slides-group">
+                <li class="slide show">
+                    <img src="./photo.jpg" alt="Photo 1">
+                </li>
+                <li class="slide">
+                    <img src="./photo2.jpg" alt="Photo 2">
+                </li>
+                <li class="slide">
+                    <img src="./photo3.jpg" alt="Photo 3">
+                </li>
+                <li class="slide">
+                    <img src="./photo4.jpg" alt="Photo 4">
+                </li>
+            </ul>
+            <div class="progress">
+                <span class="dot one"></span>
+                <span class="dot two"></span>
+                <span class="dot three"></span>
+                <span class="dot four"></span>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
