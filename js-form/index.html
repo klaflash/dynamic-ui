@@ -9,16 +9,17 @@
 </head>
 <body>
 
-    <form>
-        <div>
-            <label for="email">Email:</label>
+    <form id="form">
+
+        <label for="email">Email:</label>
+        <div class="inputs">
             <input type="email" id="email" name="email">
+            <div class="error" aria-live="polite"></div>
         </div>
         
-        <div>
-            <label for="country">Country:</label>
+        <label for="country">Country:</label>
+        <div class="inputs"> 
         <select name="country" class="form-control" id="country">
-            <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
             <option value="US" label="United States">United States</option>
             <optgroup id="country-optgroup-Africa" label="Africa">
                 <option value="DZ" label="Algeria">Algeria</option>
@@ -282,27 +283,28 @@
                 <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
             </optgroup>
         </select>
+        <div class="error" aria-live="polite"></div>
         </div>
         
-        <div>
-            <label for="zip">Zip Code:</label>
+        <label for="zip">Zip Code:</label>
+        <div class="inputs">
             <input type="number" id="zip" name="zip">
+            <div class="error" aria-live="polite"></div>
         </div>
         
-        <div>
-            <label for="pass">Password:</label>
-            <input type="text" id="pass" name="pass">
-        </div>
-        
-        <div>
-            <label for="pass-match">Confirm Password:</label>
-            <input type="text" id="pass-match" name="pass-match">    
+        <label for="pass">Password:</label>
+        <div class="inputs">
+            <input type="password" id="pass" name="pass">
+            <div class="error" aria-live="polite"></div>
         </div>
 
-        <div>
-            <label for="submit"></label>
-            <input type="submit" id="submit" name="submit">
+        <label for="pass-match">Confirm Password:</label>
+        <div class="inputs">
+            <input type="password" id="pass-match" name="pass-match">   
+            <div class="error" aria-live="polite"></div> 
         </div>
+
+        <button type="submit">Submit</button>
     </form>
     
 </body>
