@@ -14,3 +14,8 @@ Implementation of simple mobile navigation features.
 Auto advancing image carousel with slide indicator.
 <br/>
 <br/>
+
+## 📁 [js-form](https://klaflash.github.io/dynamic-ui/js-form)
+HTML form with JS validation.
+<br/>
+<br/>
